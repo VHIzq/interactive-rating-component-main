@@ -23,7 +23,7 @@ const handleClick = (e) => {
 
 const handleSubmit = () => {
   $rating.style.display='none';
-  $card.style.display='block';
+  $card.style.display='flex';
 }
 
 $point1.addEventListener('click', handleClick);

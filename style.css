@@ -94,6 +94,7 @@ body {
   height: 400px;
   border-radius: 1rem;
   margin: 1rem;
+display: none;
 }
 
 .card span{
@@ -109,4 +110,5 @@ body {
 
 .card p{
   color: var(--clr-neutral-400);
+  align-items: center;
 }
