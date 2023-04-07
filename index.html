@@ -18,10 +18,13 @@
   </head>
   <body>
     <main>
-      <div class="rating">
+      <div id="rating" class="rating">
         <section class="rating__text">
           <span>
-            <img src="/images/icon-star.svg" alt="">
+            <img
+              src="/images/icon-star.svg"
+              alt=""
+            />
           </span>
           <h1>How did we do?</h1>
           <p>
@@ -29,27 +32,63 @@
             feedback is appreciated to help us improve our offering!
           </p>
         </section>
-        <section class="score">
-          <span class="point point1">1</span>
-          <span class="point point2">2</span>
-          <span class="point point3">3</span>
-          <span class="point point4">4</span>
-          <span class="point point5">5</span>
-        </section>
-        <section class="button">
-          <button>SUBMIT</button>
-        </section>
+        <form id="form">
+          <section class="score">
+            <button
+              value="1"
+              class="point"
+              id="point1"
+            >
+              1
+            </button>
+            <button
+              value="2"
+              class="point"
+              id="point2"
+            >
+              2
+            </button>
+            <button
+              value="3"
+              class="point"
+              id="point3"
+            >
+              3
+            </button>
+            <button
+              value="4"
+              class="point"
+              id="point4"
+            >
+              4
+            </button>
+            <button
+              value="5"
+              class="point"
+              id="point5"
+            >
+              5
+            </button>
+          </section>
+          <section id="btn" class="button">
+            <button type="submit">SUBMIT</button>
+          </section>
+        </form>
       </div>
 
-      <section class="card">
-          <img src="/images/illustration-thank-you.svg" alt="thank you image">
-          <span>You selected 4 out of 5</span>
-          <h2>Thank you!</h2>
-          <p>
-            We appreciate you taking the time to give a rating.
-            If you ever need more support, don´t hesitate to get in touch!
-          </p>
+      <section id="card" class="card">
+        <img
+          src="/images/illustration-thank-you.svg"
+          alt="thank you image"
+        />
+        <span>You selected 4 out of 5</span>
+        <h2>Thank you!</h2>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don´t hesitate to get in touch!
+        </p>
       </section>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
